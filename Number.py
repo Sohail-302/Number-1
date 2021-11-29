@@ -270,7 +270,7 @@ def action():
 
             if 'access_token' in q:
 
-                print '\x1b[1;96m  [Sohail OK]  ' + k + c + user + '  |  ' + pass1
+                print '\x1b[1;92m  [Sohail OK]  ' + k + c + user + '  |  ' + pass1
 
                 okb = open('save/CP.txt', 'a')
 
@@ -302,7 +302,7 @@ def action():
 
                 if 'access_token' in q:
 
-                    print '\x1b[1;96m  [Sohail OK] ' + k + c + user + '  |  ' + pass2
+                    print '\x1b[1;92m  [Sohail OK] ' + k + c + user + '  |  ' + pass2
 
                     okb = open('save/OK.txt', 'a')
 
@@ -334,7 +334,7 @@ def action():
 
                     if 'access_token' in q:
 
-                        print '\x1b[1;98m  [Sohail OK]  ' + k + c + user + '  |  ' + pass3
+                        print '\x1b[1;92m  [Sohail OK]  ' + k + c + user + '  |  ' + pass3
 
                         okb = open('save/CP.txt', 'a')
 
@@ -366,7 +366,7 @@ def action():
 
                        if 'access_token' in q:
 
-                        print '\x1b[1;98m  [Sohail OK]  ' + k + c + user + '  |  ' + pass4
+                        print '\x1b[1;92m  [Sohail OK]  ' + k + c + user + '  |  ' + pass4
 
                         okb = open('save/CP.txt', 'a')
 
